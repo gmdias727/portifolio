@@ -30,7 +30,7 @@ const FetchCustomJson = () => {
     return (
         <div>
           <h1>{ data.profile.name }</h1>
-          {/* <p>{ data.descricao }</p> */}
+          <p>{ data.descricao }</p>
         </div>
       );
 }

@@ -1,37 +1,33 @@
-"use client"
 import { useEffect, useState } from "react"
 
-const FetchCustomJson = () => {
+const useProfile = (url: string) => {
     const [data, setData] = useState<Profile | null>(null);
+    const [loading, setLoading] = useState(true);
+    const [error, setError] = useState<string | null>(null);
 
     useEffect(() => {
         const loadData = async () => {
             try {
-                const response = await fetch("/profile.json")
+                const response = await fetch(url)
 
                 if (response.ok) {
-                    const jsonData = await response.json();
+                    const jsonData: Profile = await response.json();
                     setData(jsonData);
                 } else {
                     console.error("fail load json");
                 }
             } catch (err) {
                 console.log("error: ", err)
+                setError('Error while loading JSON' + err);
+            } finally {
+                setLoading(false);
             }
         };
 
         loadData();
-    }, [])
+    }, [url])
 
-    if (!data) {
-        return <p>Loading data...</p>
-    }
-
-    return (
-        <div>
-          <h1>My name is { data.profile.name } {data.profile.surname}, Welcome to my portifolio</h1>
-        </div>
-      );
+    return { data, loading, error }
 }
 
-export default FetchCustomJson;
+export default useProfile;

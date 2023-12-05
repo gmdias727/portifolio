@@ -3,5 +3,39 @@
         "name": "Gabriel",
         "surname": "Mazieri"
     },
-    "stack": ["JavaScript", "Java"]
+    "stack": [
+        {
+            "name": "Java",
+            "alt": "An icon for the Java programming language",
+            "icon": "./images/java.png"
+        },
+        {
+            "name": "Java",
+            "alt": "An icon for the Java programming language",
+            "icon": "./images/java.png"
+        }
+    ],
+    "companies": [
+        {
+            "company_name": "",
+            "icon": "",
+            "alt": "",
+            "started_at": "",
+            "ended_at": ""
+        },
+        {
+            "company_name": "",
+            "icon": "",
+            "alt": "",
+            "started_at": "",
+            "ended_at": ""
+        },
+        {
+            "company_name": "",
+            "icon": "",
+            "alt": "",
+            "started_at": "",
+            "ended_at": ""
+        }
+    ]
 }

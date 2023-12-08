@@ -1,41 +1,78 @@
 {
-    "profile": {
-        "name": "Gabriel",
-        "surname": "Mazieri"
-    },
-    "stack": [
-        {
-            "name": "Java",
-            "alt": "An icon for the Java programming language",
-            "icon": "./images/java.png"
-        },
-        {
-            "name": "Java",
-            "alt": "An icon for the Java programming language",
-            "icon": "./images/java.png"
-        }
-    ],
-    "companies": [
-        {
-            "company_name": "",
-            "icon": "",
-            "alt": "",
-            "started_at": "",
-            "ended_at": ""
-        },
-        {
-            "company_name": "",
-            "icon": "",
-            "alt": "",
-            "started_at": "",
-            "ended_at": ""
-        },
-        {
-            "company_name": "",
-            "icon": "",
-            "alt": "",
-            "started_at": "",
-            "ended_at": ""
-        }
+  "profile": {
+    "name": "Gabriel",
+    "surname": "Mazieri",
+    "age": 24,
+    "title": "Software Engineer",
+    "specialty": "Backend Development",
+    "interests": [
+      "Neuroscience",
+      "Bodybuilding",
+      "Human Behavior",
+      "Programming Languages",
+      "Hardware"
     ]
+  },
+  "stack": [
+    {
+      "name": "HTML",
+      "alt": "An icon for the HTML markup language",
+      "icon": "./images/html.png"
+    },
+    {
+      "name": "CSS",
+      "alt": "An icon for the CSS markup language",
+      "icon": "./images/css.png"
+    },
+    {
+      "name": "JavaScript",
+      "alt": "An icon for the JavaScript programming language",
+      "icon": "./images/javascript.png"
+    },
+    {
+      "name": "Angular v15+",
+      "alt": "An icon for the Angular framework",
+      "icon": "./images/angular.png"
+    },
+    {
+      "name": "Vue.js 3",
+      "alt": "An icon for the Vue.js programming language",
+      "icon": "./images/vue.png"
+    },
+    {
+      "name": "TypeScript",
+      "alt": "An icon for the TypeScript programming language",
+      "icon": "./images/typescript.png"
+    },
+    {
+      "name": ".NET Core v6+",
+      "alt": "An icon for the .NET ecosystem",
+      "icon": "./images/dotnet.png"
+    },
+    {
+      "name": "PHP v8+",
+      "alt": "An icon for the PHP programming language",
+      "icon": "./images/php.png"
+    },
+    {
+      "name": "Laravel v10+",
+      "alt": "An icon for the Laravel programming language",
+      "icon": "./images/laravel.png"
+    },
+    {
+      "name": "MySQL",
+      "alt": "An icon for the MySQL database",
+      "icon": "./images/mysql.png"
+    }
+  ],
+  "companies": [
+    {
+      "company_name": "Bitzen",
+      "icon": "./images/bitzen.png",
+      "alt": "An icon for the Bitzen company",
+      "started_at": "March/2023",
+      "ended_at": "September/2023"
+    }
+
+  ]
 }

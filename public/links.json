@@ -1,0 +1,28 @@
+{
+    "link": [
+        {
+            "name":"~$ Who am I",
+            "href":"#who-am-i"
+        },
+        {
+            "name":"~$ TL;DR",
+            "href":"#tldr"
+        },
+        {
+            "name":"~$ Experience",
+            "href":"#experience"
+        },
+        {
+            "name":"~$ Stack",
+            "href":"#stack"
+        },
+        {
+            "name":"~$ Contributions",
+            "href":"#contributions"
+        },
+        {
+            "name":"~$ Resume",
+            "href":"#resume"
+        }
+    ]
+}

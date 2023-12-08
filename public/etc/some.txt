@@ -1,0 +1,25 @@
+{
+    "name": "React.js",
+    "alt": "An icon for the React.js library",
+    "icon": "./images/react.png"
+},
+{
+    "name": "Next.js",
+    "alt": "An icon for the Next.js framework",
+    "icon": "./images/nextjs.png"
+},
+    {
+      "name": "SQLite",
+      "alt": "An icon for the SQLite programming language",
+      "icon": "./images/sqlite.png"
+    },
+    {
+      "name": "PostgreSQL",
+      "alt": "An icon for the PostgreSQL database",
+      "icon": "./images/postgresql.png"
+    },
+    {
+      "name": "Java",
+      "alt": "An icon for the Java programming language",
+      "icon": "./images/java.png"
+    }

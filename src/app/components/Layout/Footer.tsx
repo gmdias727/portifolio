@@ -1,5 +1,3 @@
-{/* border-2 border-red-400 */}
-
 const Footer = () => {
   return (
     <div className="flex">

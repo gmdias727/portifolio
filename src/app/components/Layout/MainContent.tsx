@@ -3,7 +3,7 @@ import Gallery from "../Gallery";
 
 const MainContent = () => {
   return (
-    <div className="grid grid-cols-1 w-8/12 justify-center text-center items-center">
+    <div className="grid grid-cols-1 w-8/12 place-items-center text-center mx-auto my-auto">
 
       {/* Section: Who am I  */}
       <section id="who-am-i" className="pt-4 pb-2 grid grid-cols-1 h-screen">

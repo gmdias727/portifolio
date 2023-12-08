@@ -23,3 +23,13 @@
       "alt": "An icon for the Java programming language",
       "icon": "./images/java.png"
     }
+
+// TODO: Concertar smooth scroll
+// TODO: Design responsivo
+// TODO: Map nos links* (DONE)
+// TODO: Melhorar cores
+// TODO: Adicionar experiencia
+// TODO: Adicionar Resume
+// TODO: Adicionar PDF do cv
+
+

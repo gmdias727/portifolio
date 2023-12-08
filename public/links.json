@@ -1,27 +1,27 @@
 {
-    "link": [
+    "route": [
         {
-            "name":"~$ Who am I",
+            "title":"Who am I",
             "href":"#who-am-i"
         },
         {
-            "name":"~$ TL;DR",
+            "title":"TL;DR",
             "href":"#tldr"
         },
         {
-            "name":"~$ Experience",
+            "title":"Experience",
             "href":"#experience"
         },
         {
-            "name":"~$ Stack",
+            "title":"Stack",
             "href":"#stack"
         },
         {
-            "name":"~$ Contributions",
+            "title":"Contributions",
             "href":"#contributions"
         },
         {
-            "name":"~$ Resume",
+            "title":"Resume",
             "href":"#resume"
         }
     ]

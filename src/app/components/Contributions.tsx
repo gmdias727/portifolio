@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 
-const Gallery = () => {
-
+const Contributions = () => {
   const [data, setData] = useState<Profile | null>(null);
 
   useEffect(() => {
@@ -27,20 +26,17 @@ const Gallery = () => {
     return <p>Loading data 🥲...</p>
   }
 
-
   return (
-    <div>
-      <p className="mb-4 underline decoration-2 decoration-sky-700">Some technologies I've used in production in 2023</p>
-      <div className="grid grid-cols-3 gap-4 place-items-center">
-        {data.stack.map((item, index) => (
-          <section key={index} className="w-24 flex flex-col">
-            <p className="underline decoration-2 decoration-sky-700">{item.name}</p>
-            <img src={item.icon} alt={item.alt}/>
+    <section className="">
+     {data.contributions.map((item, index) => (
+          <section className="flex flex-wrap justify-center items-center" key={index}>
+            <a className="p-2 underline underline-offset-4 decoration-2 decoration-indigo-500" href={item.link}>
+              {item.title}
+            </a>
           </section>
         ))}
-      </div>
-    </div>
+    </section>
   )
 }
 
-export default Gallery;
+export default Contributions;

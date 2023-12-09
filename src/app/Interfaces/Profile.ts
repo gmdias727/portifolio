@@ -4,7 +4,14 @@ interface Profile {
         surname: string;
         age: number;
         title: string;
+        specialty: string;
         interests: string[];
+    },
+    contact: {
+      email: string;
+      linkedin: string;
+      instagram: string;
+      twitter: string;
     },
     stack: [
       {
@@ -15,11 +22,18 @@ interface Profile {
     ],
     companies: [
       {
-        company_name: string,
-        icon: string,
-        alt: string,
-        started_at: string,
-        ended_at: string
+        company_name: string;
+        website: string;
+        icon: string;
+        alt: string;
+        started_at: string;
+        ended_at: string;
+      }
+    ],
+    contributions: [
+      {
+        title: string;
+        link: string;
       }
     ]
 }

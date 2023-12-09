@@ -13,6 +13,12 @@
       "Hardware"
     ]
   },
+  "contact": {
+    "email": "gabrieldias7200@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/gmdias0/",
+    "instagram": "https://www.instagram.com/gmdias0_/",
+    "twitter": "https://x.com/gmdias0_"
+  },
   "stack": [
     {
       "name": "HTML",
@@ -30,12 +36,17 @@
       "icon": "./images/javascript.png"
     },
     {
-      "name": "Angular v15+",
+      "name": "Angular",
       "alt": "An icon for the Angular framework",
       "icon": "./images/angular.png"
     },
     {
-      "name": "Vue.js 3",
+      "name": "Ionic",
+      "alt": "An icon for the Ionic framework",
+      "icon": "./images/ionic.png"
+    },
+    {
+      "name": "Vue",
       "alt": "An icon for the Vue.js programming language",
       "icon": "./images/vue.png"
     },
@@ -45,17 +56,17 @@
       "icon": "./images/typescript.png"
     },
     {
-      "name": ".NET Core v6+",
+      "name": ".NET Core",
       "alt": "An icon for the .NET ecosystem",
       "icon": "./images/dotnet.png"
     },
     {
-      "name": "PHP v8+",
+      "name": "PHP",
       "alt": "An icon for the PHP programming language",
       "icon": "./images/php.png"
     },
     {
-      "name": "Laravel v10+",
+      "name": "Laravel",
       "alt": "An icon for the Laravel programming language",
       "icon": "./images/laravel.png"
     },
@@ -67,12 +78,26 @@
   ],
   "companies": [
     {
-      "company_name": "Bitzen",
+      "company_name": "Bitzen Technology",
+      "website": "https://bitzen.tech/",
       "icon": "./images/bitzen.png",
       "alt": "An icon for the Bitzen company",
       "started_at": "March/2023",
       "ended_at": "September/2023"
     }
-
+  ],
+  "contributions": [
+    {
+      "title": "fixed min-h to arbitrary values (rem)",
+      "link": "https://github.com/themesberg/flowbite-react/pull/226"
+    },
+    {
+      "title": "Adding installation guide for podman on linux",
+      "link": "https://github.com/rluders/containers4noobs/pull/2"
+    },
+    {
+      "title": "Podman guide continuation",
+      "link": "https://github.com/rluders/containers4noobs/pull/3"
+    }
   ]
 }

@@ -25,9 +25,9 @@ const Links = () => {
   }
 
   return (
-    <div className="flex justify-center">
+    <div className="fixed top-0 w-full bg-white shadow-md flex flex-wrap justify-center">
       {links.route.map((item, index) => (
-        <button className="p-4 m-4 bg-red-500 rounded" key={index}>
+        <button className="p-2 m-2 bg-indigo-300 rounded" key={index}>
           <a className="text-white p-2 m-2" href={item.href}>{item.title}</a>
         </button>
       ))}

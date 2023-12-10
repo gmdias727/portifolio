@@ -30,7 +30,7 @@ const MainContent = () => {
           <li>My first time college was in 2019 where I started a Computer Science degree (unfinished)</li>
           <li>Later in 2020 I enrolled to FATEC within entrance exam to a InfoSec course</li>
           <li>Then changed to Analysis and Systems Development in 2021 where I&apos;m at right now</li>
-          <li>Contributed for 3 years for a community called <a className="font-bold underline" href="https://heartdevs.com/">He4rt Developers</a> which one of these three years I was major contributor working as a co-leader (it means I love tech communities)</li>
+          <li>Contributed for 3 years for a tech community which one of these three years I was major contributor working as a co-leader (it means I love tech communities)</li>
           <li>I&apos;m not a web designer so I just made this page look enough informative about my professional profile
           </li>
         </ul>
@@ -54,17 +54,7 @@ const MainContent = () => {
         <h1 className="mt-32 font-bold text-3xl">Open Source Contributions</h1>
         <Contributions></Contributions>
       </section>
-
-      {/* Section: Resume  */}
-      <section id="resume" className="pt-4 pb-2 h-screen">
-        <h1 className="mt-32 font-bold text-3xl">Resume</h1>
-
-        <p className="m-4">Check out my resume below</p>
-
-        <button className="m-4 p-4 rounded border-2 border-indigo-500">
-          <a href="/resume.pdf" download>Download</a>
-        </button>
-      </section>
+      
     </div>
   )
 }

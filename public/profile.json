@@ -23,64 +23,64 @@
     {
       "name": "HTML",
       "alt": "An icon for the HTML markup language",
-      "icon": "./images/html.png"
+      "icon": "/images/html.png"
     },
     {
       "name": "CSS",
       "alt": "An icon for the CSS markup language",
-      "icon": "./images/css.png"
+      "icon": "/images/css.png"
     },
     {
       "name": "JavaScript",
       "alt": "An icon for the JavaScript programming language",
-      "icon": "./images/javascript.png"
+      "icon": "/images/javascript.png"
     },
     {
       "name": "Angular",
       "alt": "An icon for the Angular framework",
-      "icon": "./images/angular.png"
+      "icon": "/images/angular.png"
     },
     {
       "name": "Ionic",
       "alt": "An icon for the Ionic framework",
-      "icon": "./images/ionic.png"
+      "icon": "/images/ionic.png"
     },
     {
       "name": "Vue",
       "alt": "An icon for the Vue.js programming language",
-      "icon": "./images/vue.png"
+      "icon": "/images/vue.png"
     },
     {
       "name": "TypeScript",
       "alt": "An icon for the TypeScript programming language",
-      "icon": "./images/typescript.png"
+      "icon": "/images/typescript.png"
     },
     {
       "name": ".NET Core",
       "alt": "An icon for the .NET ecosystem",
-      "icon": "./images/dotnet.png"
+      "icon": "/images/dotnet.png"
     },
     {
       "name": "PHP",
       "alt": "An icon for the PHP programming language",
-      "icon": "./images/php.png"
+      "icon": "/images/php.png"
     },
     {
       "name": "Laravel",
       "alt": "An icon for the Laravel programming language",
-      "icon": "./images/laravel.png"
+      "icon": "/images/laravel.png"
     },
     {
       "name": "MySQL",
       "alt": "An icon for the MySQL database",
-      "icon": "./images/mysql.png"
+      "icon": "/images/mysql.png"
     }
   ],
   "companies": [
     {
       "company_name": "Bitzen Technology",
       "website": "https://bitzen.tech/",
-      "icon": "./images/bitzen.png",
+      "icon": "/images/bitzen.png",
       "alt": "An icon for the Bitzen company",
       "started_at": "March/2023",
       "ended_at": "September/2023"

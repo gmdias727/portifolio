@@ -12,10 +12,10 @@ const MainContent = () => {
         <h1 className="mt-32 md:mt-32 sm:mt-32 font-bold text-3xl">Who am I</h1>
 
         <p>
-          Hey! My name is Gabriel and I'm a software developer with passion for backend development and functional programming. I'm a senior student at <a className="font-bold underline" href="https://www.fatec.edu.br/">FATEC</a> university in <a className="font-bold underline" href="https://www.fatec.edu.br/cursos/analise-e-desenvolvimento-de-sistemas/">Analysis and Systems Development</a>
+          Hey! My name is Gabriel and I&apos;m a software developer with passion for backend development and functional programming. I&apos;m a senior student at <a className="font-bold underline" href="https://www.fatec.edu.br/">FATEC</a> university in <a className="font-bold underline" href="https://www.fatec.edu.br/cursos/analise-e-desenvolvimento-de-sistemas/">Analysis and Systems Development</a>
         </p>
         <p>
-          Outside computer's world I'm building muscles at gym 6 days a week and hanging with my friends and family once in a while.
+          Outside computer&apos;s world I&apos;m building muscles at gym 6 days a week and hanging with my friends and family once in a while.
         </p>
       </section>
 
@@ -29,9 +29,9 @@ const MainContent = () => {
         <ul className="list-disc list-inside">
           <li>My first time college was in 2019 where I started a Computer Science degree (unfinished)</li>
           <li>Later in 2020 I enrolled to FATEC within entrance exam to a InfoSec course</li>
-          <li>Then changed to Analysis and Systems Development in 2021 where I'm at right now</li>
+          <li>Then changed to Analysis and Systems Development in 2021 where I&apos;m at right now</li>
           <li>Contributed for 3 years for a community called <a className="font-bold underline" href="https://heartdevs.com/">He4rt Developers</a> which one of these three years I was major contributor working as a co-leader (it means I love tech communities)</li>
-          <li>I'm not a web designer so I just made this page look enough informative about my professional profile
+          <li>I&apos;m not a web designer so I just made this page look enough informative about my professional profile
           </li>
         </ul>
       </section>

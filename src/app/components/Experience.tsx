@@ -29,12 +29,12 @@ const Experience = () => {
 
 
   return (
-    <div className="text-justify">
+    <div>
       {data.companies.map((item, index) => (
         <section className="flex flex-col justify-center items-center" key={index}>
           <a href={data.companies[0].website} target="_blank" rel="noopener noreferrer">
             <Image
-              className="w-64 m-8"
+              className="w-48 my-8"
               src={data.companies[0].icon}
               width={500}
               height={500}

@@ -29,9 +29,9 @@ const Contributions = () => {
   return (
     <section className="">
      {data.contributions.map((item, index) => (
-          <section className="flex flex-wrap justify-center items-center" key={index}>
-            <a className="p-2 underline underline-offset-4 decoration-2 decoration-indigo-500" href={item.link}>
-              {item.title}
+          <section className="flex flex-wrap" key={index}>
+            <a className="hover:bg-sky-200 hover:font-medium" href={item.link}>
+              — {item.title}
             </a>
           </section>
         ))}

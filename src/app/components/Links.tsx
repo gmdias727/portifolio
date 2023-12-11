@@ -25,12 +25,12 @@ const Links = () => {
   }
 
   return (
-    <div className="fixed top-0 w-full bg-white shadow-md flex flex-wrap justify-center">
-      {links.route.map((item, index) => (
+    <div className="fixed top-0 w-full shadow-md flex flex-wrap justify-center">
+      {/* {links.route.map((item, index) => (
         <button className="p-2 m-2 bg-indigo-300 rounded" key={index}>
           <a className="text-white p-2 m-2" href={item.href}>{item.title}</a>
         </button>
-      ))}
+      ))} */}
     </div>
   )
 }

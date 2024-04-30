@@ -25,13 +25,13 @@ const Gallery = () => {
   }, [])
 
   if (!data) {
-    return <p>Loading data 🥲...</p>
+    return <p>Loading data ...</p>
   }
 
   return (
     <div>
       <p className="mb-4">Some technologies I&apos;ve used in production in 2023</p>
-      <div className="grid grid-cols-3 gap-4 place-items-center">
+      <div className="grid grid-cols-6 gap-4 place-items-center">
         {data.stack.map((item, index) => (
           <section key={index} className="w-16 flex flex-col">
             <p className="text-center">{item.name}</p>

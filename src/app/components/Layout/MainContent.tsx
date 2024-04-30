@@ -70,7 +70,6 @@ const MainContent = () => {
         <div className="my-5">
           <h1 className="underline decoration-1 underline-offset-2 font-light text-4xl">Open Source Contributions</h1>
         </div>
-
         <Contributions></Contributions>
       </section>
     </div>

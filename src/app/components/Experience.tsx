@@ -7,7 +7,7 @@ const Experience = () => {
   useEffect(() => {
     const loadData = async () => {
       try {
-        const response = await fetch("/profile.json")
+        const response = await fetch("/profile.json");
 
         if (response.ok) {
           const jsonData = await response.json();
@@ -16,23 +16,29 @@ const Experience = () => {
           console.error("fail load json");
         }
       } catch (err) {
-        console.log("error: ", err)
+        console.log("error: ", err);
       }
     };
 
     loadData();
-  }, [])
+  }, []);
 
   if (!data) {
-    return <p>Loading data 🥲...</p>
+    return <p>Loading data ...</p>;
   }
-
 
   return (
     <div>
       {data.companies.map((item, index) => (
-        <section className="flex flex-col justify-center items-center" key={index}>
-          <a href={data.companies[0].website} target="_blank" rel="noopener noreferrer">
+        <section
+          className="flex flex-col justify-center items-center"
+          key={index}
+        >
+          <a
+            href={data.companies[0].website}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Image
               className="w-48 my-8"
               src={data.companies[0].icon}
@@ -45,17 +51,35 @@ const Experience = () => {
       ))}
 
       <p className="mb-4">
-        I&apos;ve worked at <a className="underline" href={data.companies[0].website} target="_blank" rel="noopener noreferrer"><b>{data.companies[0].company_name}</b></a> as a software engineer intern from <b>{data.companies[0].started_at}</b> to <b>{data.companies[0].ended_at}</b> (6 months) mostly with the stacks quoted below.
+        I&apos;ve worked at{" "}
+        <a
+          className="underline"
+          href={data.companies[0].website}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <b>{data.companies[0].company_name}</b>
+        </a>{" "}
+        as a software engineer intern from <b>{data.companies[0].started_at}</b>{" "}
+        to <b>{data.companies[0].ended_at}</b> (6 months) mostly with the stacks
+        quoted below.
       </p>
 
       <p className="mb-4">
-        the 2 projects I&apos;ve worked were both SaaS products, where I made some improvements and implementations in clients products, one of them were a PWA built with Angular in the frontend and .NET in the backend.
+        the 2 projects I&apos;ve worked were both SaaS products, where I made
+        some improvements and implementations in clients products, one of them
+        were a PWA built with Angular in the frontend and .NET in the backend.
       </p>
       <p>
-        The other one was a more complex product because it was an LIVT stack application which had an administration panel, an app and one api serving both frontends.
+        The other one was a more complex product because it was an LIVT stack
+        application which had an administration panel, an app and one api
+        serving both frontends.
+      </p>
+      <p className="mb-4">
+        aa
       </p>
     </div>
-  )
-}
+  );
+};
 
 export default Experience;
